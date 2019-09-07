@@ -10,3 +10,12 @@ services:
       dockerfile: Dockerfile
     ports:
      - "5000:5000"
+
+    web:
+    container_name: 'coreapp1'
+    image: 'coreapp'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - "5001:5000"
