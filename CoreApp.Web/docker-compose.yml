@@ -11,7 +11,7 @@ services:
     ports:
      - "5000:5000"
 
-    web:
+    web1:
     container_name: 'coreapp1'
     image: 'coreapp'
     build:
